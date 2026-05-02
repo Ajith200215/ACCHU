@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (username === '15082006' && password === '20022005') {
             // Success! Redirect to the main page
-            window.location.href = 'index.html';
+            window.location.href = 'main.html';
         } else {
             // Error
             errorMessage.textContent = 'Incorrect credentials. Try again! 💔';
